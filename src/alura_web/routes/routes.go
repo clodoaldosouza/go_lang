@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"souza.com/index/src/web_alura/controllers"
+	"souza.com/index/src/alura_web/controllers"
 )
 
 func CarregaRotas() {

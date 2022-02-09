@@ -1,0 +1,10 @@
+Dependencies
+    go get -u github.com/gorilla/mux
+    go get -u github.com/gorilla/handlers
+    go get github.com/lib/pq
+    go get -u gorm.io/gorm
+    go get gorm.io/driver/postgres
+
+To know IP of docker running
+docker ps
+docker inspect xxxx | grep IPAddress

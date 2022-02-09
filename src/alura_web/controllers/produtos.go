@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"souza.com/index/src/web_alura/models"
+	"souza.com/index/src/alura_web/models"
 )
 
 var temp = template.Must(template.ParseGlob("templates/*.html"))

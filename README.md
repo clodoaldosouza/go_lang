@@ -32,6 +32,15 @@
 * Example to open and read a file.
 
 
+### pointers (2022/02/23)
+* Example with pointers.
+
+### print_types (2022/02/23)
+* Example with printing values and primitive types.
+
+
+### arrays (2022/02/23)
+* Example with arrays and maps.
 
 ## --------------------------------------------------
 ## Generete path for imports (maybe like a classpath in Java)

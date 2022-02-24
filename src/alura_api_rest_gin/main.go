@@ -1,8 +1,8 @@
 package main
 
 import (
-	"souza.com/index/api-go-gin/database"
-	"souza.com/index/api-go-gin/routes"
+	"souza.com/index/alura.api.rest.gin/database"
+	"souza.com/index/alura.api.rest.gin/routes"
 )
 
 func main() {

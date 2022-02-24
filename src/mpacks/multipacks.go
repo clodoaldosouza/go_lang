@@ -1,6 +1,6 @@
 package main
 
-import "souza.com/index/src/mpacks/events"
+import "./events"
 
 func main() {
 	events.Test()

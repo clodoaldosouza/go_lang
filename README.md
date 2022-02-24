@@ -38,9 +38,12 @@
 ### print_types (2022/02/23)
 * Example with printing values and primitive types.
 
-
 ### arrays (2022/02/23)
 * Example with arrays and maps.
+
+### mysql (2022/02/24)
+* Example with mysql.
+
 
 ## --------------------------------------------------
 ## Generete path for imports (maybe like a classpath in Java)

@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"souza.com/index/src/alura_web/routes"
+	routes "souza.com/index/alura.web/routes"
 )
 
 func main() {

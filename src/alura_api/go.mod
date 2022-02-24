@@ -1,4 +1,4 @@
-module souza.com/index
+module souza.com/index/alura.api
 
 go 1.15
 

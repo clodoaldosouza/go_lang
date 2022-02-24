@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"souza.com/index/api-go-gin/models"
+	"souza.com/index/alura.api.rest.gin/models"
 )
 
 var (

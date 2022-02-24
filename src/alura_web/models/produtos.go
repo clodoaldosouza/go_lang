@@ -1,6 +1,6 @@
 package models
 
-import "souza.com/index/src/alura_web/db"
+import "souza.com/index/alura.web/db"
 
 type Produto struct {
 	Id         int

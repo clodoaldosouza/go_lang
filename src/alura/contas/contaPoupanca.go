@@ -1,6 +1,6 @@
 package contas
 
-import "souza.com/index/src/alura/clientes"
+import "../clientes"
 
 type ContaPoupanca struct {
 	Titular                              clientes.Titular

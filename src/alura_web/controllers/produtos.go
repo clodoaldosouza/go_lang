@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"souza.com/index/src/alura_web/models"
+	"souza.com/index/alura.web/models"
 )
 
-var temp = template.Must(template.ParseGlob("templates/*.html"))
+var temp = template.Must(template.ParseGlob("src/alura_web/templates/*.html"))
 
 func Index(w http.ResponseWriter, r *http.Request) {
 	todosOsProdutos := models.BuscaTodosOsProdutos()

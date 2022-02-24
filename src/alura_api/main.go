@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"souza.com/index/database"
-	"souza.com/index/models"
-	"souza.com/index/routes"
+	"souza.com/index/alura.api/database"
+	"souza.com/index/alura.api/models"
+	"souza.com/index/alura.api/routes"
 )
 
 func main() {

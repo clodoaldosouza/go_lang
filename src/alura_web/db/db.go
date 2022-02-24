@@ -8,7 +8,7 @@ import (
 /*
 	https://pkg.go.dev/
 	need to run once:  go get github.com/lib/pq
-	the underscore before the "github.com/lib/pq" mens a Runtime import
+	the underscore before the "github.com/lib/pq" means a Runtime import
 */
 
 func ConectaComBancoDeDados() *sql.DB {

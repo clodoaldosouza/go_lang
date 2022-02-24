@@ -6,8 +6,8 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"souza.com/index/controllers"
-	"souza.com/index/middleware"
+	"souza.com/index/alura.api/controllers"
+	"souza.com/index/alura.api/middleware"
 )
 
 func HandleResquest() {

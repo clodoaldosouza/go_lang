@@ -1,4 +1,4 @@
-package models
+package received
 
 type Received struct {
 	Account  string

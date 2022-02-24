@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"souza.com/index/database"
-	"souza.com/index/models"
+	"souza.com/index/alura.api/database"
+	"souza.com/index/alura.api/models"
 )
 
 func Home(w http.ResponseWriter, r *http.Request) {

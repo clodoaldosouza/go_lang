@@ -1,0 +1,21 @@
+version: '3.5'
+
+services:
+    mysql:
+        container_name: "mysql"
+        build:
+          context: ./mysql
+          args:
+            - MYSQL_APP=${MYSQL_APP}
+            - MYSQL_VERSION=${MYSQL_VERSION}
+        environment:
+          - MYSQL_DATABASE=${MYSQL_DATABASE}
+          - MYSQL_USER=${MYSQL_USER}
+          - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+          - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+          - TZ=${WORKSPACE_TIMEZONE}
+        volumes:
+          - ${MYSQL_VOLUME_PATH_HOST}:/var/lib/mysql
+          - ${MYSQL_ENTRYPOINT_INITDB}:/docker-entrypoint-initdb.d
+        ports:
+          - "${MYSQL_PORT}:3306"

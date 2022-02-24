@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"souza.com/index/api-go-gin/database"
-	"souza.com/index/api-go-gin/models"
+	"souza.com/index/alura.api.rest.gin/database"
+	"souza.com/index/alura.api.rest.gin/models"
 )
 
 func ExibeTodosAlunos(c *gin.Context) {

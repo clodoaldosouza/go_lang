@@ -1,8 +1,8 @@
 package main
 
 import (
+	"./contas"
 	"fmt"
-	"souza.com/index/src/alura/contas"
 )
 
 func PagarBoleto(conta verificarConta, valorDoBoleto float64) {
